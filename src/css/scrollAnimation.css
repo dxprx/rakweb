@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.sectionScroll{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionScroll:nth-child(1){
+  color: #e0ffff;
+  }
+.sectionScroll:nth-child(2){
+  color: #42455a;
+  background: #e0ffff;
+} 
+.sectionScroll:nth-child(3){
+  color: #e0ffff;
+}
+.sectionScroll:nth-child(4){
+  color: #42455a;
+  background: #e0ffff;
+}
+.sectionScroll .container{
+  margin: 100px;
+}
+.sectionScroll h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+.sectionScroll h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sectionScroll .text-container{
+   display: flex;
+}
+.sectionScroll .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
+}
+.sectionScroll .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  .sectionScroll h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .sectionScroll .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
