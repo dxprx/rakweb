@@ -22,11 +22,11 @@ section{
     border: 0;
     outline: 0;
     font-size: 16px;
-    border-radius: 320px;
+    border-radius: 10px;
     padding: 16px;
     background-color: #EBECF0;
     text-shadow: 1px 1px 0 #FFF;
-    text-align: center;
+    text-align: left;
   }
   label {
     display: block;
