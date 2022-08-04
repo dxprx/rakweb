@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./src/css/navbar.css" />
     <link rel="stylesheet" href="./src/css/scrollAnimation.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
     <title>Last3</title>
 </head>
 <script src="//code.tidio.co/2v3ccvdvyoaychxnrcz8n7150t1imdqb.js" async></script>
 
 <body>
-<!-- Nav START-->
+    <!-- Nav START-->
     <nav>
         <div class="logo">
             <a href="./">
@@ -29,7 +32,7 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="./">Home</a></li>
+            <li><a href="./" style="color: #fb3d18;">Home</a></li>
             <li><a href="./download/">Download</a></li>
             <li><a class="comingsoon" title="Coming soon..." href="">Patch notes</a></li>
             <li><a class="comingsoon" title="Coming soon..." href="">Server status</a></li>
@@ -38,14 +41,45 @@
         </ul>
     </nav>
     <script src="./main.js"></script>
-<!-- Nav END -->
-<!-- Scroll responsive body START -->
+    <!-- Nav END -->
+    <!-- Scroll responsive body START -->
+
+
     <section class="sectionScroll">
         <h1>Scroll Down to Reveal Elements &#8595;</h1>
     </section>
     <section class="sectionScroll">
         <div class="container reveal">
-            <h2>Caption</h2>
+            <h2>uno</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <table class="ladderTable">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Level</th>
+                                <th>Exp</th>
+                                <th>Win</th>
+                                <th>Lose</th>
+                                <th>Draw</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            include("./src/php/ladder.php");
+
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionScroll">
+        <div class="container reveal middle revealing-image">
+            <h2>do</h2>
             <div class="text-container">
                 <div class="text-box">
                     <h3>Section Text</h3>
@@ -73,37 +107,8 @@
     </section>
 
     <section class="sectionScroll">
-        <div class="container reveal">
-            <h2>Caption</h2>
-            <div class="text-container">
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-                <div class="text-box">
-                    <h3>Section Text</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        eius molestiae perferendis eos provident vitae iste.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sectionScroll">
-        <div class="container reveal">
-            <h2>Caption</h2>
+        <div class="container reveal revealing-image">
+            <h2>tre</h2>
             <div class="text-container">
                 <div class="text-box">
                     <h3>Section Text</h3>
